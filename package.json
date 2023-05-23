@@ -1,0 +1,35 @@
+{
+  "name": "G3-Project",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^6",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@sap/ux-specification": "^1.108.5",
+    "sqlite3": "^5"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-test": "cds watch --open test/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-test_ques_list": "cds watch --open test_ques_list/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-testplaftorm": "cds watch --open testplaftorm/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-listofqus": "cds watch --open listofqus/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-list": "cds watch --open list/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-add_question": "cds watch --open add_question/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-test_1": "cds watch --open test_1/webapp/index.html?sap-ui-xx-viewCache=false"
+  },
+  "sapux": [
+    "app/test",
+    "app/test",
+    "app/test_ques_list",
+    "app/testplaftorm",
+    "app/list",
+    "app/add_question",
+    "app/test_1"
+  ]
+}
